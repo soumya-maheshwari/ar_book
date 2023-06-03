@@ -14,4 +14,16 @@ public class mainMenu : MonoBehaviour
    {
           SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
    }
+
+   // quit
+   public void Quit()
+   {
+      Application.Quit();
+      Debug.Log("Player has quit the app");
+   }
+
+   public void About()
+   {
+         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+   }
 }
