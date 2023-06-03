@@ -9,15 +9,21 @@ EditorBuildSettings:
     path: Assets/Scenes/mainMenuScene.unity
     guid: 158bed6356cb77c47a5063c30cb74893
   - enabled: 1
-    path: Assets/Scenes/SkullSceneFirst.unity
-    guid: ea42981e18d115040802df0f9927dec8
+    path: Assets/Scenes/subjectScene.unity
+    guid: aebdcedcb07fa9f45aad23296c3ebe67
   - enabled: 1
     path: Assets/Scenes/aboutScene.unity
     guid: 82f91cc073e837747a71176000fba0f9
-  - enabled: 0
-    path: Assets/Scenes/secondScene.unity
-    guid: 55c7f87d5710fbb4e9a52cfa72f88e60
   - enabled: 1
-    path: Assets/Scenes/playScene.unity
-    guid: 083d76f3920873d40b8efcca1cfc18a4
+    path: Assets/Scenes/animal_scene.unity
+    guid: 6ce852f9332fc254a803acaf30de52a4
+  - enabled: 1
+    path: Assets/Scenes/plant_scene.unity
+    guid: a908981b43fe66b489ede1dbb7dcf252
+  - enabled: 1
+    path: Assets/Scenes/human_scene.unity
+    guid: d7ed44ab10e8c244d8aac075d6c0abd3
+  - enabled: 1
+    path: Assets/Scenes/SkullSceneFirst.unity
+    guid: ea42981e18d115040802df0f9927dec8
   m_configObjects: {}
