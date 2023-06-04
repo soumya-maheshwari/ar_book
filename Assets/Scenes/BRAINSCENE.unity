@@ -416,6 +416,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 88354f86ca2824349b6b16d2ab61ee78, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b8d6e5253c3176f47be6a0c3974bec08, type: 2}
     - target: {fileID: 919132149155446097, guid: 88354f86ca2824349b6b16d2ab61ee78, type: 3}
       propertyPath: m_Name
       value: Brain_Model

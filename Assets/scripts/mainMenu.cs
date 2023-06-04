@@ -55,29 +55,48 @@ public class mainMenu : MonoBehaviour
 
    public void Tiger()
    {
-      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);  
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);  
    }
     public void Spider()
    {
-      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);  
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);  
    }
     public void SpiderBack()
    {
-      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);  
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);  
    }
      public void TigerBack()
    {
-      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);  
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);  
    }
       public void Brain()
    {
-      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);  
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);  
    }
       public void BrainBack()
    {
-      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);  
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);  
    }
+       public void Mushroom()
+   {
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);  
    }
+          public void MushroomBack()
+   {
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);  
+   }
+       public void Skull()
+   {
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);  
+   }
+        public void SkullBack()
+   {
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);  
+   }
+
+    
+   }
+
 
  
   
