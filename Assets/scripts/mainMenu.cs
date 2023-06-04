@@ -52,6 +52,31 @@ public class mainMenu : MonoBehaviour
    {
          SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
    }
+
+   public void Tiger()
+   {
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);  
+   }
+    public void Spider()
+   {
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);  
+   }
+    public void SpiderBack()
+   {
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);  
+   }
+     public void TigerBack()
+   {
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);  
+   }
+      public void Brain()
+   {
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);  
+   }
+      public void BrainBack()
+   {
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);  
+   }
    }
 
  
